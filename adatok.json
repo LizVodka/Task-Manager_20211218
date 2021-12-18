@@ -1,0 +1,39 @@
+{
+    "task":[
+        {
+            "id" : 1,
+            "title" : "Task1",
+            "description" : "Lorem ipsum dolor sit amet",
+            "end_date" : "2021-12-15",
+            "user_id" : 234, 
+            "status" : "folyamatban"
+        },
+        {
+            "id" : 2,
+            "title" : "Task2",
+            "description" : "Cupcake ipsum dolor sit amet",
+            "end_date" : "2021-12-18",
+            "user_id" : 235, 
+            "status" : "kész"
+        },
+        {
+            "id" : 3,
+            "title" : "Task3",
+            "description" : "Lorem ipsum dolor sit amet",
+            "end_date" : "2021-12-16",
+            "user_id" : 234, 
+            "status" : "törlendő"
+        }
+    ],
+
+    "user": [
+        {
+            "user-id" : 234,
+            "name" : "Kovács Béla" 
+        },
+        {
+            "user-id" : 235,
+            "name" : "Takáts János" 
+        }
+    ]
+}

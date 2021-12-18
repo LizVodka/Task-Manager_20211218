@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+div .sablon {
+    border: 1px solid grey;
+}
+
+div {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}

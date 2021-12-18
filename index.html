@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="task.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stilus.css">
+    <title>Task Manager | Molnár A. Aliz</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Task Manager</h1>
+            <nav>
+                <ul>
+                    <li>Feladatok</li>
+                    <li>Felhasználók</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="szures">
+            <fieldset>
+                <legend>Szűrési szempontok</legend>
+                <p>Szöveges keresés címben</p>
+                <input id="szuresNevMezore" type="search">
+                <p>Szöveges keresés státuszban</p>
+                <input id="szuresStatusMezore" type="search">
+            </fieldset>
+                <fieldset>
+                    <legend>Szűrés időpont szerint</legend>
+                    <select name="Rendezés szempontja" id="szuresRendezese">
+                        <option value="">Default</option>
+                    <option value="novekvo">Növekvő</option>
+                    <option value="csokkeno">Csökkenő</option>
+                </select>
+                </fieldset>
+            <div class="sablon">
+                <h2 class="title">Title</h2>
+                <p class="description">Description</p>
+                <div class="date">date</div>
+                <div class="name">name</div>
+                <div class="status">status</div>
+                <button class="modositas">Módosítás</button>
+                <button class="torles">Törlés</button>
+            </div>
+        </div>
+        <div id="kartyak">
+            
+        </div>
+        <div class="urlap">
+            <fieldset>
+                <legend>Adat felvitel</legend>
+                <form>
+                    <label for="title">Title:</label>
+                    <input type="text" name="title" id="title"><br>
+                    <label for="descr">Description:</label>
+                    <input type="text" name="descr" id="descr"><br>
+                    <label for="end-date">End date:</label>
+                    <input type="date" name="end-date" id="end-date"><br>
+                    <label for="user">User:</label>
+                    <input type="text" name="user" id="user"><br>
+                    <label for="status">Status:</label>
+                    <input type="text" name="status" id="status"><br>
+                    <button>Felvitel</button>
+                </form>
+            </fieldset>
+        </div>
+        <footer>&copy; Molnár A. Aliz</footer>
+    </main>
+</body>
+</html>
